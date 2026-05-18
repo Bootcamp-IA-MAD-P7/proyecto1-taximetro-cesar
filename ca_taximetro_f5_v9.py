@@ -1,6 +1,5 @@
-# Documentación Completa — Sistema Taxímetro F5 V.P9
+# Proyecto - Taxímetro F5 V.P9
 
-```python
 """
 ═══════════════════════════════════════════════════════════════
  TAXÍMETRO F5 V.P9
@@ -75,7 +74,7 @@ from collections import defaultdict
 
 
 # ═════════════════════════════════════════════════════════════
-# CONFIGURACIÓN GLOBAL DEL SISTEMA
+# CONFIGURACIÓN 
 # ═════════════════════════════════════════════════════════════
 
 # Tarifa aplicada por segundo en movimiento
@@ -89,7 +88,7 @@ DB_PATH = os.path.join(os.path.expanduser("~"), "taximetro_db.json")
 
 
 # ═════════════════════════════════════════════════════════════
-# FUNCIONES UTILITARIAS
+# FUNCIONES 
 # ═════════════════════════════════════════════════════════════
 
 
@@ -122,7 +121,7 @@ def fecha_str():
 
 
 # ═════════════════════════════════════════════════════════════
-# CLASE PRINCIPAL DEL SISTEMA
+# CLASE PRINCIPAL 
 # ═════════════════════════════════════════════════════════════
 
 class Taximetro:
