@@ -1150,6 +1150,6 @@ if __name__ == "__main__":
 
     # Loop principal de eventos GUI
     root.mainloop()
-```
+
 
 
